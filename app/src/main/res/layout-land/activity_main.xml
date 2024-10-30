@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+    <fragment
+        android:id="@+id/fragment_book_title"
+        android:name="com.nazwa.fragmantexample.BookTitle"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/book_tittles" />
+    <fragment
+        android:id="@+id/fragment_book_description"
+        android:name="com.nazwa.fragmantexample.BookDescription"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/book_description" />
+</LinearLayout>
